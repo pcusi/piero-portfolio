@@ -1,0 +1,73 @@
+@import '_variables.scss';
+
+
+.apt-section {
+  background: $dark-bg;
+}
+
+.apt-section .apt-section-title {
+  color: $dark-button-paragraph;
+  font-weight: 700;
+  font-size: 5em;
+  font-family: $proxima-nova;
+}
+
+.apt-section .separate {
+  background: $dark-separate-two;
+  width: 7%;
+  height: 8px;
+  border-radius: 10px;
+  animation: 1s separateTitle infinite alternate;
+}
+
+.apt-card {
+  border: none;
+  background: $dark-card;
+}
+
+.apt-card .apt-card-title {
+  color: $dark-theme;
+  font-weight: 700;
+  font-family: $proxima-nova;
+  color: white;
+  text-transform: uppercase;
+}
+
+.apt-card .separate {
+  background: $dark-separate;
+  width: 25%;
+  height: 8px;
+  border-radius: 10px;
+  animation: 1s separateWidth infinite alternate-reverse;
+}
+
+.apt-description {
+  color: $dark-theme;
+  font-family: $proxima-nova;
+  font-size: 1.5em;
+  text-align: justify;
+}
+
+.btn-contact {
+  background: $dark-button-two;
+  min-width: 25%;
+  color: $dark-button-paragraph-two;
+  font-family: $proxima-nova;
+  transition: width 200ms;
+  font-weight: 700;
+  border-radius: 99px;
+}
+
+.btn-contact:hover {
+  width: 30%;
+}
+
+@keyframes separateWidth {
+  0% {
+    width: 25%;
+  }
+
+  100% {
+    width: 35%;
+  }
+}

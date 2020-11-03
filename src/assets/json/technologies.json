@@ -1,0 +1,69 @@
+{
+  "technologies": [
+    {
+      "name": "Ionic",
+      "img": "assets/images/ionic.png",
+      "level": "Intermedio"
+    },
+    {
+      "name": "Angular",
+      "img": "assets/images/angular.png",
+      "level": "Intermedio"
+    },
+    {
+      "name": "Node.js",
+      "img": "assets/images/node.png",
+      "level": "Intermedio"
+    },
+    {
+      "name": "PHP",
+      "img": "assets/images/php.png",
+      "level": "Básico"
+    },
+    {
+      "name": "Flutter",
+      "img": "assets/images/flutter.png",
+      "level": "Básico"
+    },
+    {
+      "name": "Electron",
+      "img": "assets/images/electron.png",
+      "level": "Básico"
+    },
+    {
+      "name": "CSS",
+      "img": "assets/images/css.png",
+      "level": "Avanzado"
+    },
+    {
+      "name": "JavaScript",
+      "img": "assets/images/js.png",
+      "level": "Avanzado"
+    },
+    {
+      "name": "MongoDB",
+      "img": "assets/images/mongodb.png",
+      "level": "Intermedio"
+    },
+    {
+      "name": "MySQL",
+      "img": "assets/images/mysql.png",
+      "level": "Intermedio"
+    },
+    {
+      "name": "Git",
+      "img": "assets/images/git.png",
+      "level": "Intermedio"
+    },
+    {
+      "name": "HTML",
+      "img": "assets/images/html.png",
+      "level": "Avanzado"
+    },
+    {
+      "name": "Bootstrap",
+      "img": "assets/images/bootstrap.png",
+      "level": "Intermedio"
+    }
+  ]
+}

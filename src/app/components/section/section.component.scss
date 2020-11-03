@@ -1,0 +1,51 @@
+@import '_variables.scss';
+
+.section {
+  background: $dark-theme;
+  min-height: 80vh;
+}
+
+#hand {
+  animation: 0.5s shake infinite alternate;
+}
+
+@keyframes shake {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(15%);
+  }
+}
+
+.section .section-title {
+  color: $dark-title;
+  font-weight: 700;
+  font-size: 5em;
+  font-family: $proxima-nova;
+}
+
+.section .section-description {
+  color: $dark-paragraph;
+  font-family: $proxima-nova;
+  font-size: 1.5em;
+  text-align: justify;
+}
+
+
+.section .separate {
+  background: $dark-separate;
+  width: 7%;
+  height: 8px;
+  border-radius: 10px;
+  animation: 1s separateTitle infinite alternate;
+}
+
+@keyframes separateTitle {
+  0% {
+    width: 7%;
+  }
+  100% {
+    width: 12%;
+  }
+}

@@ -1,0 +1,39 @@
+/* fonts */
+@font-face {
+    font-family: 'proxima-nova', sans-serif;
+    src: url('../assets/fonts/ProximaNova-Regular.otf');
+}
+
+$proxima-nova: 'proxima-nova', sans-serif;
+
+/* dark theme */
+$dark-bg:#fffffe;
+$dark-theme: #111111;
+$dark-button: #fffffe;
+$dark-button-paragraph: #16161a;
+$dark-separate: #fffffe;
+$dark-paragraph: rgba(243, 243, 243, 0.867);
+$dark-card: #16161a;
+$dark-jumbotron-card: #242629;
+$dark-title: #dddddd;
+$dark-button-two: #111111;
+$dark-button-paragraph-two: #fffffe;
+$dark-paragraph-two: #16161a;
+$dark-title-two: #111111;
+$dark-separate-two: #111111;
+$dark-input: #fffffe;
+$dark-placeholder: #111111;
+$dark-path: #dddddd;
+$dark-jumbotron-button: #242629;
+$dark-jumbotron-button-pararaph: #fffffe;
+
+
+/* light theme */
+$bg-light-theme: #eff0f3;
+$bg-light-button: #ff8e3c;
+$bg-light-separate: #ff8e3c;
+$bg-light-card: #ff8e3c;
+$bg-light-paragraph: #2a2a2a;
+$bg-light-title: #0d0d0d;
+$bg-light-jumbotron-card: #242629;
+$bg-light-title: #fffffe;

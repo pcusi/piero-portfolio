@@ -1,0 +1,88 @@
+@import '_variables.scss';
+
+.exp-section {
+  background: $dark-bg;
+}
+
+.exp-section .exp-section-title {
+  color: $dark-title-two;
+  font-weight: 700;
+  font-size: 5em;
+  font-family: $proxima-nova;
+}
+
+.exp-section .separate {
+  background: $dark-separate-two;
+  width: 7%;
+  height: 8px;
+  border-radius: 10px;
+  animation: 1s separateTitle infinite alternate;
+}
+
+
+.tech-jumbo {
+  background: $dark-theme;
+}
+
+.tech-jumbo .tech-card {
+  border: 1px solid slategray;
+  background: $dark-jumbotron-card;
+}
+
+.tech-jumbo .tech-title {
+  font-size: 0.8em;
+  font-family: $proxima-nova;
+  font-weight: 700;
+  color: $dark-title;
+}
+
+.tech-jumbo .tech-img {
+  width: 40px;
+  height: 40px;
+}
+
+.icon-check {
+  min-width: 20px;
+  height: 20px;
+  background: $dark-theme;
+  display: inline-block;
+  border-radius: 100%;
+  vertical-align: middle;
+  border: 1px solid slategray;
+  margin-right: 5px;
+}
+
+
+.icon-check .check {
+  position: relative;
+  font-size: 12px;
+  font-weight: bold;
+  color: $dark-button;
+  text-align: center;
+  right: 1px;
+}
+
+.tech-jumbo .exp-desc {
+  color: $dark-paragraph;
+  font-family: $proxima-nova;
+  font-size: 1.1em;
+}
+
+.tech-badge {
+  background: $dark-button;
+  color: $dark-button-paragraph;
+  font-family: $proxima-nova;
+}
+
+.span-text {
+  font-family: $proxima-nova;
+}
+
+@keyframes separateTitle {
+  0% {
+    width: 7%;
+  }
+  100% {
+    width: 12%;
+  }
+}

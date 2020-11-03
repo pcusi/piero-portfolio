@@ -1,0 +1,22 @@
+@import '_variables.scss';
+
+.navbar-brand svg .path-one, .path-two {
+  stroke: $dark-path;
+}
+
+.navbar-brand svg .path-three {
+  fill: $dark-path;
+}
+
+
+
+.first-toolbar {
+  background: $dark-theme;
+}
+
+.second-toolbar .nav-item .nav-link {
+  color: $dark-title;
+  font-weight: bold;
+  font-family: 'proxima';
+  font-size: 1em;
+}

@@ -1,0 +1,41 @@
+@import '_variables.scss';
+
+
+.portfolio-section {
+  background: $dark-bg;
+}
+
+.portfolio-section .portfolio-section-title {
+  color: $dark-title-two;
+  font-weight: 700;
+  font-size: 5em;
+  font-family: $proxima-nova;
+}
+
+.portfolio-section .separate {
+  background: $dark-separate-two;
+  width: 7%;
+  height: 8px;
+  border-radius: 10px;
+  animation: 1s separateTitle infinite alternate;
+}
+
+.port-section .port-card {
+  background: none;
+  border: none;
+}
+
+.port-section .port-title {
+  color: $dark-title-two;
+  font-weight: 700;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-family: $proxima-nova;
+}
+
+.port-section .port-description {
+  color: $dark-paragraph-two;
+  font-family: $proxima-nova;
+  font-size: 1.5em;
+  text-align: justify;
+}

@@ -1,0 +1,30 @@
+<!-- Seccion de experiencias -->
+<div class="portfolio-section container-fluid my-5">
+  <div class="d-flex flex-column align-items-end">
+    <h1 class="portfolio-section-title">Portafolio 💼 </h1>
+    <div class="separate float-right"></div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 my-3" *ngFor="let port of portfolio">
+      <div class="port-section container-fluid">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="card port-card">
+              <div class="card-body">
+                <img src="{{port.img}}" class="d-block w-50 mx-auto img-port img-flui card-img-top">
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h4 class="port-title">{{port.title}}</h4>
+            <p class="port-description">{{port.description}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

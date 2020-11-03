@@ -1,0 +1,19 @@
+{
+  "portfolio": [
+    {
+      "title": "Tienda Virtual La Comunidá",
+      "img": "assets/images/feria-comunida-project.png",
+      "description": "Este proyecto se realizó para la Feria la Comunidá. Identifiqué su feria física y le construí una tienda virtual, en el frontEnd se usó Angular, para el backEnd Express con MySQL"
+    },
+    {
+      "title": "Sintransa Móvil",
+      "img": "assets/images/sintransa-project.png",
+      "description": "Este proyecto se realizó para el Sindicato Nacional de Trabajadores de la Empresa Ransa Comercial S.A. Identifiqué todos sus procesos de trabajo y le construí una aplicación móvil, en el frontEnd se usó Angular e Ionic, para el backEnd Express con MongoDB"
+    },
+    {
+      "title": "Covid19.pe",
+      "img": "assets/images/covid-project.png",
+      "description": "Proyecto personal que me permitió dar una información a mis amigos y a mi familia, sobre la pandemia que actualmente tiene el Perú, esta aplicación también envia notificaciones push para mantener informado al usuario, hecho en Flutter para el frontEnd, y en el backEnd se usó Firebase - Express - MongoDB"
+    }
+  ]
+}
