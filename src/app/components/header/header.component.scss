@@ -16,7 +16,11 @@
 
 .second-toolbar .nav-item .nav-link {
   color: $dark-title;
-  font-weight: bold;
-  font-family: 'proxima';
-  font-size: 1em;
+  font-weight: 700;
+  font-family: $proxima-nova;
+  font-size: 1.5em;
+  transition: all 400ms;
+  &:hover {
+    font-size: 2em;
+  }
 }

@@ -13,4 +13,10 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  goPortfolio() {
+    document.getElementById('portfolio').scrollIntoView({
+      behavior: 'smooth'
+    });
+  }
+
 }
