@@ -21,6 +21,11 @@
           <div class="col-lg-6">
             <h4 class="port-title">{{port.title}}</h4>
             <p class="port-description">{{port.description}}</p>
+            <a class="btn btn-contact" *ngIf="port.status == 1; else gitLink" [href]="port.link" target="_blank">Ir a la página</a>
+            <ng-template #gitLink>
+              <a class="btn btn-contact" [href]="port.link" target="_blank">
+                <i class="icss-github-o"></i> Github</a>
+            </ng-template>
           </div>
         </div>
       </div>

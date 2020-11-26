@@ -35,8 +35,11 @@ export class ContactComponent implements OnInit {
 
   public contactMe() {
     this._c.contactMe(this.formGroup.value).subscribe(data => {
-      if (data) console.log('Enviado papu')
-      else console.log('No enviado papu')
+      if (data) {
+        alert('Gracias por contactarte, mi respuesta no demora ni 24 horas');
+        this.formGroup.reset();
+      }
+      else alert('No puedes contactarte ahora :(!')
     });
   }
 }

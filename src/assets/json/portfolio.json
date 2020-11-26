@@ -3,22 +3,30 @@
     {
       "title": "Tienda Virtual La Comunidá",
       "img": "assets/images/feria-comunida-project.png",
-      "description": "Este proyecto se realizó para la Feria la Comunidá. Identifiqué su feria física y le construí una tienda virtual, en el frontEnd se usó Angular, para el backEnd Express con MySQL."
+      "description": "Este proyecto se realizó para la Feria la Comunidá. Identifiqué su feria física y le construí una tienda virtual, en el frontEnd se usó Angular, para el backEnd Express con MySQL.",
+      "status": 1,
+      "link": "https://market-comunida.web.app"
     },
     {
       "title": "Sintransa Móvil",
       "img": "assets/images/sintransa-project.png",
-      "description": "Este proyecto se realizó para el Sindicato Nacional de Trabajadores de la Empresa Ransa Comercial S.A. Identifiqué todos sus procesos de trabajo y le construí una aplicación móvil, en el frontEnd se usó Angular e Ionic, para el backEnd Express con MongoDB."
+      "description": "Este proyecto se realizó para el Sindicato Nacional de Trabajadores de la Empresa Ransa Comercial S.A. Identifiqué todos sus procesos de trabajo y le construí una aplicación móvil, en el frontEnd se usó Angular e Ionic, para el backEnd Express con MongoDB.",
+      "status": 0,
+      "link": "https://github.com/pcusi/sintramarsa-app"
     },
     {
       "title": "Covid19.pe",
       "img": "assets/images/covid-project.png",
-      "description": "Proyecto personal que me permitió dar una información a mis amigos y a mi familia, sobre la pandemia que actualmente tiene el Perú, esta aplicación también envia notificaciones push para mantener informado al usuario, hecho en Flutter para el frontEnd, y en el backEnd se usó Firebase - Express - MongoDB."
+      "description": "Proyecto personal que me permitió dar una información a mis amigos y a mi familia, sobre la pandemia que actualmente tiene el Perú, esta aplicación también envia notificaciones push para mantener informado al usuario, hecho en Flutter para el frontEnd, y en el backEnd se usó Firebase - Express - MongoDB.",
+      "status": 0,
+      "link": "https://github.com/pcusi/covid19-app"
     },
     {
       "title": "Carolina de Rossi",
       "img": "assets/images/rossi-project.png",
-      "description": "Este proyecto se realizó para la artista Carolina de Rossi, un landing page atractivo para sus pinturas, en el backEnd se usó PHP puro y para el frontEnd HTML y CSS."
+      "description": "Este proyecto se realizó para la artista Carolina de Rossi, un landing page atractivo para sus pinturas, en el backEnd se usó PHP puro y para el frontEnd HTML y CSS.",
+      "status": 1,
+      "link": "http://carolinaderossi.com"
     }
   ]
 }

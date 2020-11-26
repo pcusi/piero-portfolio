@@ -39,3 +39,23 @@
   font-size: 1.5em;
   text-align: justify;
 }
+
+.port-section .btn-contact {
+  background: $dark-button-two;
+  min-width: 25%;
+  color: $dark-button-paragraph-two;
+  font-family: $proxima-nova;
+  transition: all 500ms;
+  font-weight: 700;
+  border-radius: 99px;
+}
+
+.btn-contact:hover {
+  width: 30%;
+}
+
+.icon-github {
+  width: 32px;
+  height: 32px;
+  background-image: url("../../../assets/images/angular.png");
+}

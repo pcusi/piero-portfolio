@@ -8,12 +8,16 @@ import {environment} from '../../environments/environment';
 })
 export class ContactService {
 
+  public url: any;
+
   constructor(
     private _http: HttpClient
-  ) { }
+  ) {
+    this.url = environment.apiUrl;
+  }
 
   contactMe(contact: Contact) {
     const headers = new HttpHeaders().set('content-type', 'application/json');
-    return this._http.post(environment.api+'contact-me', JSON.stringify(contact), {headers});
+    return this._http.post(this.url+'contact-me', JSON.stringify(contact), {headers});
   }
 }
